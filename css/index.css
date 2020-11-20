@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-image: url(../img/bg-2.png);
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CABEÇALHO */
+
+#interface {
+    width: 960px;
+}
+
+#cabecalho {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+/* MENU */
+
+#logoD {
+    display: inline-block;
+    /* position: absolute; */
+    right: 100px;
+    margin-top: 20px;
+}
+
+/* imagem logo */
+
+#logoD img {
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+    top: 14px;
+}
+
+#menu {
+    position: relative;
+    width: 960px;
+}
+
+#menu ul {
+    list-style-type: none;
+    background-color: #EF4C27;
+    color: white;
+    padding: 15px;
+    padding-left: 100px;
+    /* padding-inline-start: 150px; */
+}
+
+#menu li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+/* MAIN */
+
+#corpo {
+    overflow: hidden;
+    background-color: white;
+    margin-top: 50px;
+}
+
+#produtos {
+    width: 960px;
+}
+
+/* IMAGENS */
+
+/* imagens uma do lado da outra */
+
+.imgs {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    position: relative;
+}
+
+/* imagem desconto */
+
+.miniF {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+/* nome do produto meio da imagem */
+
+.titulo {
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    /* right: 50px; */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+.titulo h3 {
+    font-style: italic;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/*  BOTÃO */
+
+.botao {
+    position: absolute;
+    bottom: 10px;
+    right: 120px;
+    top: 105px;
+}
+
+.botao button {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.815);
+    border: none;
+}
